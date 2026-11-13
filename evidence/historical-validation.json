@@ -1,0 +1,28 @@
+{
+  "record": "Historical offline tests preserved from private release validation; not reclassified as new tests or camera tests",
+  "initial_private_installer": {
+    "date": "2026-11-03",
+    "status": "validated-offline",
+    "camera_access": false,
+    "native_fault_cases": 77,
+    "AArch64_release_cases": 6,
+    "host_protocol_cases": 19,
+    "camera_payload_unchanged": true
+  },
+  "coefficient_update_used_for_public_v1": {
+    "date": "2026-11-03",
+    "status": "offline-passed",
+    "camera_access": false,
+    "hardware_tested": false,
+    "tests": {
+      "native_fault_cases": 43,
+      "release_ELF_cases": 7,
+      "host_protocol_cases": 19,
+      "extra_update_contract_cases": 4,
+      "native_target_cases": 96,
+      "complete_capture_lifecycles": 6,
+      "known_partial_CP_states": 8
+    }
+  },
+  "version_mapping": "docs/VERSION_HISTORY.md"
+}

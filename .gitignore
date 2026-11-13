@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+data/private/
+private/
+captures/
+firmware/
+*.ARW
+*.arw
+*.bin
+*.so
+*.dll
+*.exe
+*.zip
+*.partial
+state.json
+session-*/

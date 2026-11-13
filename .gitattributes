@@ -1,0 +1,3 @@
+# Preserve exact bytes across Windows/Linux checkouts for the SHA-256 inventory.
+* -text
+*.png binary

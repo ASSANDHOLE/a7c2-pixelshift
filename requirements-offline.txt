@@ -1,0 +1,5 @@
+# Optional native compilation/ARM64 execution checks. The candidate builder uses stdlib only.
+pyelftools==0.33
+unicorn==2.1.4
+# Optional compiler distribution; alternatively provide an existing Zig 0.13.0 path.
+ziglang==0.13.0

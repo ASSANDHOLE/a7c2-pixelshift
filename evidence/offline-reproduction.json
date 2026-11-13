@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-14",
+  "public_version": "v1",
+  "status": "offline-passed",
+  "camera_access": false,
+  "new_physical_camera_test": false,
+  "builder_unittest_methods": 8,
+  "native_fault_cases": 77,
+  "AArch64_helper_cases": 4,
+  "USB_imported": false,
+  "full_AP_and_CP_match_existing_working_configuration": true,
+  "complete_inverse_matches_stock": true,
+  "two_output_directories": {
+    "AP_CP_candidates_identical": true,
+    "generated_headers_identical": true,
+    "AArch64_helper_identical": true,
+    "Windows_fixture_identical": false,
+    "Windows_fixture_difference": "12 byte differences confined to PE COFF/debug timestamps and CodeView debug data; no bit-identical fixture claim."
+  },
+  "relocated_public_repo_with_spaces_and_relative_input_paths": true,
+  "profile_sha256": "daaefe32c3c00dc31ab64705d375881fdddb8740a640cd6713bb1fc6cc31b029",
+  "tested_host_record": "environment.json",
+  "source_sha256": {
+    "tools/build_offline.py": "ab5e1dcbdcf84a7f6bae201ccf7b525c357f7ec74eb54979bd08318cb8ecf88d",
+    "tools/test_offline.py": "9ef7b946e5c1c5d21b3218f3896eef2427f049e1950e04abf5a3f583f0ce5dda",
+    "tests/test_offline_builder.py": "958f1991d27bb11f530723d587a3c1d8703c3840b56303bffe439f9c1f67bf43",
+    "src/v1/offline/native/install_writer.c": "0e53da14a5accedfea686f848ee275411e437addb43c395245fe506f3561d2f6"
+  },
+  "limits": [
+    "One Windows x64 host; no new physical install, USB, storage, boot or power-loss recovery test.",
+    "Exact known firmware inputs and explicitly supplied coefficients; no other firmware/body validation.",
+    "Generated artifacts are not body-bound and cannot be substituted into the preserved CP-only live updater.",
+    "Binary/header hashes that depend on the chosen triplet remain in private build records."
+  ],
+  "same_size_stock_corruption_refused_before_output": true,
+  "program_binaries_published": false,
+  "published_coefficient_example": {
+    "C0": 116,
+    "C1": 119,
+    "C2": 112,
+    "owner_authorized": true,
+    "scope": "One-body measured starting point; not validated on other cameras",
+    "change": "Documentation/input example only; no test rerun"
+  }
+}

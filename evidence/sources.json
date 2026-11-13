@@ -1,0 +1,89 @@
+{
+  "checked": "2026-11-14",
+  "sources": [
+    {
+      "url": "https://github.com/QAQLeonard/a7c2-tools/blob/68a08af8e55da76714a9127fed7f18bcdf0979d4/README.md",
+      "revision": "68a08af8e55da76714a9127fed7f18bcdf0979d4",
+      "role": "Current upstream documentation; reference only",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": "b44903c5349fd7540f3ab0f8030d22fd6493946b9cc0d271039737905bdf58f9",
+      "text_saved_privately": true
+    },
+    {
+      "url": "https://github.com/QAQLeonard/a7c2-tools/blob/68a08af8e55da76714a9127fed7f18bcdf0979d4/LICENSE",
+      "revision": "68a08af8e55da76714a9127fed7f18bcdf0979d4",
+      "role": "Current PolyForm Noncommercial license; no current code imported",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5",
+      "text_saved_privately": true
+    },
+    {
+      "url": "https://github.com/QAQLeonard/a7c2-tools/blob/782785641ca9f8b984940c7274b48706219e0da4/LICENSE",
+      "revision": "782785641ca9f8b984940c7274b48706219e0da4",
+      "role": "License of the historic implementation reference",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": "c592870a8504689cbe03449c2ae582ba6517716c9e0cd2f880cea50c187d16e9",
+      "text_saved_privately": true
+    },
+    {
+      "url": "https://github.com/QAQLeonard/a7c2-tools/blob/68a08af8e55da76714a9127fed7f18bcdf0979d4/docs/en/notices.md",
+      "revision": "68a08af8e55da76714a9127fed7f18bcdf0979d4",
+      "role": "Current source/rights and helper-route distinction",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": "899f79cc583839a0f8f8c3f485fe744ae42e441671ab02f0c05a2f6a5d3200c9",
+      "text_saved_privately": true
+    },
+    {
+      "url": "https://github.com/YuuLuo/a7c2-service-preload/blob/1619f938663a36d41e72302a8cfee89a0f6acd1a/README.md",
+      "revision": "1619f938663a36d41e72302a8cfee89a0f6acd1a",
+      "role": "Related service-loader documentation; not installed",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": "3088b8667c21eca9bdda534e6719c0e5839c3f2d8085a39aef8ab98f58a5b7a1",
+      "text_saved_privately": true
+    },
+    {
+      "url": "https://github.com/injectiver/a7cr-creative-look-tools/blob/48f3cb6cb02a1ad1da29f12d7ca97bdad1cb310f/README.md",
+      "revision": "48f3cb6cb02a1ad1da29f12d7ca97bdad1cb310f",
+      "role": "Related A7CR research, not pixel-shift calibration",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": "b1ef8ea90313c3bbc9f4e5a02970d95b74485f7bdbb3cab463a6666e6127dbb2",
+      "text_saved_privately": true
+    },
+    {
+      "url": "https://github.com/masterflai/pmca-re-reloaded/blob/1a5e2f602d0be3779deed667f0ed4f8a2abf1f09/README.md",
+      "revision": "1a5e2f602d0be3779deed667f0ed4f8a2abf1f09",
+      "role": "Newer related toolkit; not run or used as this patch's recovery",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": "e2f6eebc0e99a1753d5f7df15edefadc19c126718f2fb64b8581133bbd1061ae",
+      "text_saved_privately": true
+    },
+    {
+      "url": "https://helpguide.sony.net/ilc/2370/v1/en/contents/0414M_pixel_shift_shooting.html",
+      "role": "Official A7CR workflow; not C2 compatibility",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": null,
+      "method": "Web tool page opened; no raw document saved"
+    },
+    {
+      "url": "https://support.d-imaging.sony.co.jp/app/imagingedge/en/instruction/1_2_about_psm.php",
+      "role": "Official shortest interval and motion correction guidance",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": null,
+      "method": "Web tool page opened; no raw document saved"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/reasoning",
+      "role": "Reasoning-effort description",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": null,
+      "method": "Web tool page opened; no raw document saved"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/config-file/config-reference",
+      "role": "Model/configuration settings",
+      "retrieved": "2026-11-14",
+      "retrieved_text_sha256": null,
+      "method": "Web tool page opened; no raw document saved"
+    }
+  ]
+}

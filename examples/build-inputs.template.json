@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "model": "ILCE-7CM2",
+  "firmware": "2.01",
+  "ap_file": "stock/appFw.so",
+  "cp_file": "stock/cpapp-b.bin",
+  "coefficients": [116, 119, 112]
+}

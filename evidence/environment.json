@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-14",
+  "host": "Windows x64 / PowerShell; recorded private runtime, not minimum requirements",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "distributions": [
+    {
+      "name": "capstone",
+      "version": "5.0.9"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "dissect.cstruct",
+      "version": "4.7"
+    },
+    {
+      "name": "dissect.squashfs",
+      "version": "1.12"
+    },
+    {
+      "name": "dissect.util",
+      "version": "3.24"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.67.0"
+    },
+    {
+      "name": "ImageIO",
+      "version": "2.38.1"
+    },
+    {
+      "name": "importlib_resources",
+      "version": "6.5.2"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1"
+    },
+    {
+      "name": "lazy-loader",
+      "version": "0.6"
+    },
+    {
+      "name": "libusb-package",
+      "version": "1.0.30.0"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2"
+    },
+    {
+      "name": "networkx",
+      "version": "3.7"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.4"
+    },
+    {
+      "name": "opencv-python-headless",
+      "version": "5.0.0.93"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0"
+    },
+    {
+      "name": "pip",
+      "version": "26.2.2"
+    },
+    {
+      "name": "pycryptodomex",
+      "version": "3.24.1"
+    },
+    {
+      "name": "pyelftools",
+      "version": "0.33"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    {
+      "name": "pypcode",
+      "version": "4.0.1"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "pyusb",
+      "version": "1.3.1"
+    },
+    {
+      "name": "rawpy",
+      "version": "0.27.1"
+    },
+    {
+      "name": "scikit-image",
+      "version": "0.26.0"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "tifffile",
+      "version": "2026.10.15"
+    },
+    {
+      "name": "unicorn",
+      "version": "2.1.4"
+    }
+  ],
+  "model_provenance": {
+    "record_type": "local current-session turn_context metadata",
+    "model": "gpt-6-astra",
+    "effort": "xhigh",
+    "scope": "Recorded selection; not a backend attestation or complete historical model ledger",
+    "default_config_not_session": {
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh"
+    }
+  },
+  "tested_scope": {
+    "physical_camera_count": 1,
+    "physical_host_count": 1,
+    "cross_host_or_cross_platform_camera_validation": false,
+    "note": "Physical experiments used one owner-operated Windows PC and one camera; current host snapshot is not a claim of an unchanged historical OS build."
+  },
+  "current_host_snapshot": {
+    "recorded": "2026-11-14",
+    "platform": "Windows x64",
+    "reported_kernel_build": "10.0.26300.9974",
+    "display_version": "26H2",
+    "PowerShell_offline_checks": "7.6.9",
+    "Python": "3.12.14 x64",
+    "Zig": "0.13.0",
+    "identifiable_details_included": false,
+    "hardware_inventory_omitted": true
+  }
+}

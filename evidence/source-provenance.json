@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-14",
+  "scope": "One public v1 configuration, existing coefficient-update review snapshot, coefficient-independent stock-transition helper source, offline test support, notices and numerical plots. No body calibration or firmware binaries.",
+  "files": [
+    {
+      "path": "src/v1/host/a7c2_cp_reader.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/a7c2_cp_reader.py",
+      "bytes": 406,
+      "sha256": "0b66a86ac26278e52629b7158934c2eb565e71934b3cef94c6cebda0c06882ae",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/a7c2_persistent.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/a7c2_persistent.py",
+      "bytes": 18367,
+      "sha256": "5eae0057c43786af2b2ca105151b023cbd41055ec87b254cae46d56785865e6d",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/a7c2_readonly.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/a7c2_readonly.py",
+      "bytes": 21575,
+      "sha256": "cb62f8007e3f955b0f3d5a9f7e216c7033806afd65dd0815694e7d680680828d",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/a7c2_readonly_backup.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/a7c2_readonly_backup.py",
+      "bytes": 6272,
+      "sha256": "00f478186b4bcb336878955d4e4af3d613aab8da03305f0f7ec8eb6a5f3ad993",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/a7c2_readonly_protocol.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/a7c2_readonly_protocol.py",
+      "bytes": 8328,
+      "sha256": "37a37f58390f86d3297a280568a9cd3ba1d73010a4ac573d2155e9b8ae94a8a5",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/a7c2_usb_status.ps1",
+      "source": "A7C2-PixelShift-v1.1-update/app/a7c2_usb_status.ps1",
+      "bytes": 1594,
+      "sha256": "94238755d181a2438f87b73b9672d426c58d5f5fb34777a96117d7cd542d116f",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/abi_reference.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/abi_reference.py",
+      "bytes": 1246,
+      "sha256": "af543ea034620b929cd7b1b35d8a275ad466c4105eeca357f1fd34f5b64f006e",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/acquire.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/acquire.py",
+      "bytes": 237,
+      "sha256": "c524bf4b3de4afa5f32c7a10281028313dcd2c1030b902040133f824a35bb221",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/check_persistent_package.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/check_persistent_package.py",
+      "bytes": 1153,
+      "sha256": "8ad17d5d0f6aced4b4de392c383e7ba6cb9e80ff876d34937d76d69688178ccc",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/main.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/main.py",
+      "bytes": 318,
+      "sha256": "43f9c770454deeced56dbe6189bf3001d2fdbdf4a348b2e34488f41dddc1c30f",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/persistent_pixelshift_v1.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/persistent_pixelshift_v1.py",
+      "bytes": 132,
+      "sha256": "3a2d027f21b33cb25801bf7609eb34b3586af883997f58d7826b7406921d5609",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/persistent_writer_protocol.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/persistent_writer_protocol.py",
+      "bytes": 7447,
+      "sha256": "38488a206165d101b4dcc3a90b5fc9646c733fa0e19ce6e464336a75bea3a745",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/host/prepare_persistent_writer.py",
+      "source": "A7C2-PixelShift-v1.1-update/app/prepare_persistent_writer.py",
+      "bytes": 625,
+      "sha256": "68482c4356098bebe3a5dd9039f073dd7b43423f7eeabd1a4c9076efa863c48e",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/native/a7c2_linux_abi.h",
+      "source": "A7C2-PixelShift-v1.1-update/native/a7c2_linux_abi.h",
+      "bytes": 667,
+      "sha256": "f53e521ac34a725de343bd27369ca31948c64e845f2850968adefee70a5822f4",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/native/persistent_writer.c",
+      "source": "A7C2-PixelShift-v1.1-update/native/persistent_writer.c",
+      "bytes": 12943,
+      "sha256": "ecb7ac8d7b9b79ee8e8481f493f6dc72623f200d691cc0e922fed54888553512",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/native/sha256.h",
+      "source": "A7C2-PixelShift-v1.1-update/data/private/device/writer/sha256.h",
+      "bytes": 2514,
+      "sha256": "85dc96693857e6f4b9f9035e5c5b02b80a49ab44082f0c19dc46cd5c0400238e",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "src/v1/native/persistent_maps.inc",
+      "source": "A7C2-PixelShift-v1.1-update/data/private/device/writer/persistent_maps.inc",
+      "bytes": 3111,
+      "sha256": "7ed5b1b1bbae445fbccbb17bfbb83e2029fe613673f8ae6df60af9894f135910",
+      "transformation": "Byte-for-byte source preserved; public directory renamed from v1_1 to v1. Historical private source path retained."
+    },
+    {
+      "path": "licenses/A7C2-upstream-MIT.txt",
+      "source": "A7C2-PixelShift-v1/licenses/A7C2-upstream-MIT.txt",
+      "bytes": 1234,
+      "sha256": "c592870a8504689cbe03449c2ae582ba6517716c9e0cd2f880cea50c187d16e9",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "licenses/Sony-PMCA-RE-MIT.txt",
+      "source": "A7C2-PixelShift-v1/licenses/Sony-PMCA-RE-MIT.txt",
+      "bytes": 1072,
+      "sha256": "a485f27d0b22eb7fd9b9419795695d0a1750ea32c961d11c1dd8ddade564dedf",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "assets/measured-patterns.png",
+      "source": "data/private/test-coef1-shifts/patterns.png",
+      "bytes": 280060,
+      "sha256": "354d4288a2b01bcb9cfceb50082fbe0580a7f1f481d654d86cce9e4228a446c1",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "assets/short-vs-long-off.png",
+      "source": "data/private/test-reboot1-shifts/short-vs-long-off.png",
+      "bytes": 211265,
+      "sha256": "20fb788859cc1a25be995997e30e5c92d84d962fbfb53f39ad3fb7b3e20c8702",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "path": "assets/long-ordinary-drift.png",
+      "source": "data/private/long-shifts/ordinary-drift.png",
+      "bytes": 97384,
+      "sha256": "f16bb4212d7da2fc54cb38749c78fbc58eb74076688fc188b8d9697acdfb838c",
+      "transformation": "none; byte-for-byte copy of inspected numerical plot; no source photograph"
+    },
+    {
+      "path": "assets/long-sixteen-drift-fit.png",
+      "source": "data/private/long-shifts/sixteen-drift-fit.png",
+      "bytes": 349751,
+      "sha256": "424f365e4d8ceba10dbc0a099d138c12039b7e9c7742a8e364c757b40c904495",
+      "transformation": "none; byte-for-byte copy of inspected numerical plot; no source photograph"
+    },
+    {
+      "path": "src/v1/offline/native/install_writer.c",
+      "source": "A7C2-PixelShift-v1/native/persistent_writer.c",
+      "bytes": 12678,
+      "sha256": "0e53da14a5accedfea686f848ee275411e437addb43c395245fe506f3561d2f6",
+      "transformation": "none; coefficient-independent full-range writer or offline simulated-test support; not a second public version"
+    },
+    {
+      "path": "tests/support/test_persistent_writer_native.py",
+      "source": "A7C2-PixelShift-v1/tests/test_persistent_writer_native.py",
+      "bytes": 13477,
+      "sha256": "7ae268a56f295c1ca5cd28b382b0bfe0090eddf0ac1594c7d6401e6723dd98d9",
+      "transformation": "none; coefficient-independent full-range writer or offline simulated-test support; not a second public version"
+    },
+    {
+      "path": "tests/support/test_persistent_writer_arm.py",
+      "source": "A7C2-PixelShift-v1/tests/test_persistent_writer_arm.py",
+      "bytes": 5592,
+      "sha256": "b1fb9d2e5b1bf6ffb803cfcda41d83b313d48f215d6a8816b6bdf05891b6ba47",
+      "transformation": "none; coefficient-independent full-range writer or offline simulated-test support; not a second public version"
+    },
+    {
+      "path": "tests/support/persistent_writer_protocol.py",
+      "source": "A7C2-PixelShift-v1/app/persistent_writer_protocol.py",
+      "bytes": 7449,
+      "sha256": "b4118607d7efe35604cd455f5dd082a0fd44c804618b6b245934d407b7cd6f20",
+      "transformation": "none; coefficient-independent full-range writer or offline simulated-test support; not a second public version"
+    },
+    {
+      "path": "tests/support/persistent_test_abi.h",
+      "source": "A7C2-PixelShift-v1/data/private/device/writer/fixture/persistent_test_abi.h",
+      "bytes": 389,
+      "sha256": "13cb90e8b3c36c3e0967f6feddc09d421baf37aea7b35fe99be62216fd259551",
+      "transformation": "none; coefficient-independent full-range writer or offline simulated-test support; not a second public version"
+    }
+  ],
+  "public_version": "v1",
+  "version_mapping": "docs/VERSION_HISTORY.md",
+  "derived_files": [
+    {
+      "path": "tools/build_offline.py",
+      "sha256": "ab5e1dcbdcf84a7f6bae201ccf7b525c357f7ec74eb54979bd08318cb8ecf88d",
+      "source_modules": [
+        {
+          "path": "tools/persistent_pixelshift_v1.py",
+          "sha256": "00c042ea686cadf5d734f2004e2bdcff46b2dc3e2ed933a907508bd1d9bc34a3"
+        },
+        {
+          "path": "tools/prepare_persistent_writer.py",
+          "sha256": "26ded2c4367d5eb677c185ba86d5e3d242bad071d9ab9033684bc4c07ba14de5"
+        }
+      ],
+      "derivation": "Same patch encoders/window transformations/header structure adapted to explicit JSON inputs, fixed generic firmware profile, external private outputs and no workspace/session imports."
+    },
+    {
+      "path": "profiles/ilce7cm2-2.01.json",
+      "sha256": "daaefe32c3c00dc31ab64705d375881fdddb8740a640cd6713bb1fc6cc31b029",
+      "derivation": "Generic AP/CP windows and loaded-AP/relocation fields from reviewed layout; exact stock hashes cross-checked against public-firmware extraction. All five coefficient replacements use input indices, never the owner triplet."
+    }
+  ]
+}

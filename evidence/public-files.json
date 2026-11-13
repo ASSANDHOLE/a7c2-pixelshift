@@ -1,0 +1,348 @@
+{
+  "schema": 1,
+  "date": "2026-11-14",
+  "public_version": "v1",
+  "scope": "Public offline reproduction source, generic firmware profile, de-identified evidence and owner-authorized three-value starting example. No original calibration/identity records, credentials, firmware binaries or photos.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 102,
+      "sha256": "c87de2ac0f9416dceb41ad124fa22d6c54cf41823e3133cc8998f95db6a4b37c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/observation.md",
+      "bytes": 501,
+      "sha256": "fa3f7bc80a1ac0997157d0ebf9c4d8d6c9519033b0f4e2c6ae9d8646db39fe98"
+    },
+    {
+      "path": ".github/workflows/offline.yml",
+      "bytes": 350,
+      "sha256": "5e0202f303d61ffa4dc6b8e957c7c4d75655b2cbff2f0e17620bf415945a821b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 142,
+      "sha256": "9cc928db58dfaa3539fa15a5e59948d37f98055186eec5c5c5d08e245cb13606"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 879,
+      "sha256": "bfe308031889f71b18679790e9c7400a3d8559b9a295301a3009720a591f69c2"
+    },
+    {
+      "path": "assets/long-ordinary-drift.png",
+      "bytes": 97384,
+      "sha256": "f16bb4212d7da2fc54cb38749c78fbc58eb74076688fc188b8d9697acdfb838c"
+    },
+    {
+      "path": "assets/long-sixteen-drift-fit.png",
+      "bytes": 349751,
+      "sha256": "424f365e4d8ceba10dbc0a099d138c12039b7e9c7742a8e364c757b40c904495"
+    },
+    {
+      "path": "assets/measured-patterns.png",
+      "bytes": 280060,
+      "sha256": "354d4288a2b01bcb9cfceb50082fbe0580a7f1f481d654d86cce9e4228a446c1"
+    },
+    {
+      "path": "assets/short-vs-long-off.png",
+      "bytes": 211265,
+      "sha256": "20fb788859cc1a25be995997e30e5c92d84d962fbfb53f39ad3fb7b3e20c8702"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1081,
+      "sha256": "3166c72c6009b304cb20022bf72a967c7158cda6c5208b9682bc6db169b60737"
+    },
+    {
+      "path": "docs/AI_RESEARCH.md",
+      "bytes": 4066,
+      "sha256": "0b457dd2fff79b1bcff8a57e62c61ae1f85ab3b76e3e2d2482a80448bb004b79"
+    },
+    {
+      "path": "docs/BUILD_INPUTS.md",
+      "bytes": 2918,
+      "sha256": "fa505eebf850741efa8a38b13578d4995709e7111ed10de83652eafb41922cad"
+    },
+    {
+      "path": "docs/HOW_IT_WORKS.md",
+      "bytes": 4512,
+      "sha256": "0582787e952511c590bd0eadd1ce2e63abe88f5bb29da94b0b77e78889b48ab9"
+    },
+    {
+      "path": "docs/INSTALL_AND_UNDO.md",
+      "bytes": 3429,
+      "sha256": "d858afa76b9d1138deacbc398406cf34906f306230646c7739ad6eb1605befe9"
+    },
+    {
+      "path": "docs/LONG_SERIES.md",
+      "bytes": 7497,
+      "sha256": "02091274965a9c8f1c784839858d5ddcd4f1f4d703aa37fba40982331e7a430c"
+    },
+    {
+      "path": "docs/MEASUREMENT_METHOD.md",
+      "bytes": 6413,
+      "sha256": "df7a38effe9d4bdb3ad69e7b5aae86e4afcb16baea2670368ad45241ebd4858f"
+    },
+    {
+      "path": "docs/OBSERVATIONS.md",
+      "bytes": 4187,
+      "sha256": "bc3f53bfda2d902313c011045cde5446d07fcebe5be26df82b2b829b1ce24366"
+    },
+    {
+      "path": "docs/PARAMETERS.md",
+      "bytes": 4393,
+      "sha256": "3c5dece89d81ad7431221872cea0bb57736b2b3667d8b91f0fba4fd626f3d269"
+    },
+    {
+      "path": "docs/REFERENCES.md",
+      "bytes": 6396,
+      "sha256": "07c91bc56d73fd39cfe00ccf770e70fb9618991f77d16568d67f5b3509e6ac1c"
+    },
+    {
+      "path": "docs/REPRODUCE.md",
+      "bytes": 7268,
+      "sha256": "9b4236a8f54fface84995955ad87450b3bfd1e693c8529c00137b77e512924e1"
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "bytes": 6162,
+      "sha256": "4b399c40999edc83fd14c7bed92174d815e3151ee37018873695afb65c85673b"
+    },
+    {
+      "path": "docs/RISKS.md",
+      "bytes": 3937,
+      "sha256": "e9a9ae218a4f240859e9fa4bd37b454af4938337e0b97f175dd00e79eebf6ed9"
+    },
+    {
+      "path": "docs/TESTED_ENVIRONMENT.md",
+      "bytes": 2503,
+      "sha256": "8135605247d337b760d965be7775441d8d2479b1e349a15c6b1a4d7432c6ea8f"
+    },
+    {
+      "path": "docs/TUNING.md",
+      "bytes": 8609,
+      "sha256": "335b22ab284ed64cbf6b0ddb15a508e1f52bb8eebf2c738540d4cdc7e092f1af"
+    },
+    {
+      "path": "docs/VERSION_HISTORY.md",
+      "bytes": 2334,
+      "sha256": "6739529ca000a4c5407cf741b3789486b2ebaf0afbcb0f82c886508c39bd1a9f"
+    },
+    {
+      "path": "evidence/environment.json",
+      "bytes": 3430,
+      "sha256": "993ab689ac2de841ef59de5f4727e46b7b8b0e91f7bca6e4fbf9ec9eb790d6ae"
+    },
+    {
+      "path": "evidence/historical-validation.json",
+      "bytes": 895,
+      "sha256": "a3296a1ef41d3f0bb912d21d6bedb169342a60caf4741932f4de382d3b0e074c"
+    },
+    {
+      "path": "evidence/long-series.json",
+      "bytes": 107483,
+      "sha256": "bc12537366bc8c5beed547da4fcc61fe7dc4b5e6227bfe8218ce9c5c84fa55af"
+    },
+    {
+      "path": "evidence/measurement-summary.json",
+      "bytes": 14411,
+      "sha256": "837a5c71119df0ca45f909ac7f760f384720165d8b0fce6527db9a866f28b0b6"
+    },
+    {
+      "path": "evidence/offline-reproduction.json",
+      "bytes": 2193,
+      "sha256": "93f3a69489475351a6bdf29ac8054c3ab03d6e01dd7cfb50c13a23f9d34fc840"
+    },
+    {
+      "path": "evidence/source-provenance.json",
+      "bytes": 11963,
+      "sha256": "a82168a68a93ab08d90f43f9432561d71915e65e4328bc78fb3c5c5e84715504"
+    },
+    {
+      "path": "evidence/sources.json",
+      "bytes": 4310,
+      "sha256": "7bd3bb4586db2673a017d36a6c7b1bb9461018eb3a5254eec2d722bab154692b"
+    },
+    {
+      "path": "examples/build-inputs.template.json",
+      "bytes": 164,
+      "sha256": "3f3280c0cab4b6bad796d4609b80e0c97123c74d95aedfc933880dc7eb9ac9ea"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1337,
+      "sha256": "e7b1a5d61f587ff8f183c49826d689a22534b7efa7b513a58523b7a01c9bdc2c"
+    },
+    {
+      "path": "licenses/A7C2-upstream-MIT.txt",
+      "bytes": 1234,
+      "sha256": "c592870a8504689cbe03449c2ae582ba6517716c9e0cd2f880cea50c187d16e9"
+    },
+    {
+      "path": "licenses/Sony-PMCA-RE-MIT.txt",
+      "bytes": 1072,
+      "sha256": "a485f27d0b22eb7fd9b9419795695d0a1750ea32c961d11c1dd8ddade564dedf"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 2304,
+      "sha256": "5f55b84a5457c3c2e2c9fb75256b007623de8295ffe36ec71a15bf626575fdf7"
+    },
+    {
+      "path": "profiles/ilce7cm2-2.01.json",
+      "bytes": 10738,
+      "sha256": "daaefe32c3c00dc31ab64705d375881fdddb8740a640cd6713bb1fc6cc31b029"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7195,
+      "sha256": "44cfad0a4d32531629c1c12a722b4e7a09e753181b26eaff2cc4a751c3c7da01"
+    },
+    {
+      "path": "requirements-offline.txt",
+      "bytes": 227,
+      "sha256": "935308f3561e49f422fba63314c338b48452933bdb46ab1ba234a3606fda9c8d"
+    },
+    {
+      "path": "src/README.md",
+      "bytes": 2963,
+      "sha256": "0f9df1a110f9bfed61fa39f2abe78cc15d482120d24c7185fc83890b4dadeeb8"
+    },
+    {
+      "path": "src/v1/host/a7c2_cp_reader.py",
+      "bytes": 406,
+      "sha256": "0b66a86ac26278e52629b7158934c2eb565e71934b3cef94c6cebda0c06882ae"
+    },
+    {
+      "path": "src/v1/host/a7c2_persistent.py",
+      "bytes": 18367,
+      "sha256": "5eae0057c43786af2b2ca105151b023cbd41055ec87b254cae46d56785865e6d"
+    },
+    {
+      "path": "src/v1/host/a7c2_readonly.py",
+      "bytes": 21575,
+      "sha256": "cb62f8007e3f955b0f3d5a9f7e216c7033806afd65dd0815694e7d680680828d"
+    },
+    {
+      "path": "src/v1/host/a7c2_readonly_backup.py",
+      "bytes": 6272,
+      "sha256": "00f478186b4bcb336878955d4e4af3d613aab8da03305f0f7ec8eb6a5f3ad993"
+    },
+    {
+      "path": "src/v1/host/a7c2_readonly_protocol.py",
+      "bytes": 8328,
+      "sha256": "37a37f58390f86d3297a280568a9cd3ba1d73010a4ac573d2155e9b8ae94a8a5"
+    },
+    {
+      "path": "src/v1/host/a7c2_usb_status.ps1",
+      "bytes": 1594,
+      "sha256": "94238755d181a2438f87b73b9672d426c58d5f5fb34777a96117d7cd542d116f"
+    },
+    {
+      "path": "src/v1/host/abi_reference.py",
+      "bytes": 1246,
+      "sha256": "af543ea034620b929cd7b1b35d8a275ad466c4105eeca357f1fd34f5b64f006e"
+    },
+    {
+      "path": "src/v1/host/acquire.py",
+      "bytes": 237,
+      "sha256": "c524bf4b3de4afa5f32c7a10281028313dcd2c1030b902040133f824a35bb221"
+    },
+    {
+      "path": "src/v1/host/check_persistent_package.py",
+      "bytes": 1153,
+      "sha256": "8ad17d5d0f6aced4b4de392c383e7ba6cb9e80ff876d34937d76d69688178ccc"
+    },
+    {
+      "path": "src/v1/host/main.py",
+      "bytes": 318,
+      "sha256": "43f9c770454deeced56dbe6189bf3001d2fdbdf4a348b2e34488f41dddc1c30f"
+    },
+    {
+      "path": "src/v1/host/persistent_pixelshift_v1.py",
+      "bytes": 132,
+      "sha256": "3a2d027f21b33cb25801bf7609eb34b3586af883997f58d7826b7406921d5609"
+    },
+    {
+      "path": "src/v1/host/persistent_writer_protocol.py",
+      "bytes": 7447,
+      "sha256": "38488a206165d101b4dcc3a90b5fc9646c733fa0e19ce6e464336a75bea3a745"
+    },
+    {
+      "path": "src/v1/host/prepare_persistent_writer.py",
+      "bytes": 625,
+      "sha256": "68482c4356098bebe3a5dd9039f073dd7b43423f7eeabd1a4c9076efa863c48e"
+    },
+    {
+      "path": "src/v1/native/a7c2_linux_abi.h",
+      "bytes": 667,
+      "sha256": "f53e521ac34a725de343bd27369ca31948c64e845f2850968adefee70a5822f4"
+    },
+    {
+      "path": "src/v1/native/persistent_maps.inc",
+      "bytes": 3111,
+      "sha256": "7ed5b1b1bbae445fbccbb17bfbb83e2029fe613673f8ae6df60af9894f135910"
+    },
+    {
+      "path": "src/v1/native/persistent_writer.c",
+      "bytes": 12943,
+      "sha256": "ecb7ac8d7b9b79ee8e8481f493f6dc72623f200d691cc0e922fed54888553512"
+    },
+    {
+      "path": "src/v1/native/sha256.h",
+      "bytes": 2514,
+      "sha256": "85dc96693857e6f4b9f9035e5c5b02b80a49ab44082f0c19dc46cd5c0400238e"
+    },
+    {
+      "path": "src/v1/offline/native/install_writer.c",
+      "bytes": 12678,
+      "sha256": "0e53da14a5accedfea686f848ee275411e437addb43c395245fe506f3561d2f6"
+    },
+    {
+      "path": "tests/support/persistent_test_abi.h",
+      "bytes": 389,
+      "sha256": "13cb90e8b3c36c3e0967f6feddc09d421baf37aea7b35fe99be62216fd259551"
+    },
+    {
+      "path": "tests/support/persistent_writer_protocol.py",
+      "bytes": 7449,
+      "sha256": "b4118607d7efe35604cd455f5dd082a0fd44c804618b6b245934d407b7cd6f20"
+    },
+    {
+      "path": "tests/support/test_persistent_writer_arm.py",
+      "bytes": 5592,
+      "sha256": "b1fb9d2e5b1bf6ffb803cfcda41d83b313d48f215d6a8816b6bdf05891b6ba47"
+    },
+    {
+      "path": "tests/support/test_persistent_writer_native.py",
+      "bytes": 13477,
+      "sha256": "7ae268a56f295c1ca5cd28b382b0bfe0090eddf0ac1594c7d6401e6723dd98d9"
+    },
+    {
+      "path": "tests/test_offline_builder.py",
+      "bytes": 3628,
+      "sha256": "958f1991d27bb11f530723d587a3c1d8703c3840b56303bffe439f9c1f67bf43"
+    },
+    {
+      "path": "tools/build_offline.py",
+      "bytes": 17403,
+      "sha256": "ab5e1dcbdcf84a7f6bae201ccf7b525c357f7ec74eb54979bd08318cb8ecf88d"
+    },
+    {
+      "path": "tools/check_public.py",
+      "bytes": 1892,
+      "sha256": "5595755d09779510cafd3109e6cb5752726006be35319f19c0584530e22586ba"
+    },
+    {
+      "path": "tools/test_offline.py",
+      "bytes": 3881,
+      "sha256": "9ef7b946e5c1c5d21b3218f3896eef2427f049e1950e04abf5a3f583f0ce5dda"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 3,
+      "sha256": "2d27fbdf4e8ca207afbfa388ca9172fbcc6c70e534af2476b3b704f87debadcf"
+    }
+  ]
+}
