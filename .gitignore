@@ -15,3 +15,4 @@ firmware/
 *.partial
 state.json
 session-*/
+.idea/

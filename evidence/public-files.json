@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "date": "2026-11-14",
+  "date": "2026-11-25",
   "public_version": "v1",
-  "scope": "Public offline reproduction source, generic firmware profile, de-identified evidence and owner-authorized three-value starting example. No original calibration/identity records, credentials, firmware binaries or photos.",
+  "scope": "Public source, documentation, capture measurements and approved visual examples. Full sample RAWs are distributed separately.",
   "files": [
     {
       "path": ".gitattributes",
@@ -26,8 +26,88 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 879,
-      "sha256": "bfe308031889f71b18679790e9c7400a3d8559b9a295301a3009720a591f69c2"
+      "bytes": 1073,
+      "sha256": "55fb7ee07fbf2894c8f5aed2b6a41b3bb7ca0ffe58c42d82eed038949d8ec66b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 3458,
+      "sha256": "18eff450778f49cef2a2b3a879479dc347bf8a336299b237253030eda28d4d86"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1337,
+      "sha256": "e7b1a5d61f587ff8f183c49826d689a22534b7efa7b513a58523b7a01c9bdc2c"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 2694,
+      "sha256": "9a7416064b2cb14a79b62e633d8ca6c56234ded04f5f5604239423f2d3b7afb5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5496,
+      "sha256": "1978b85bdb806e5b7afbc1de7aea7a34374c6a1753fe4307bcb0ab272387a1e0"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 3,
+      "sha256": "2d27fbdf4e8ca207afbfa388ca9172fbcc6c70e534af2476b3b704f87debadcf"
+    },
+    {
+      "path": "assets/box-label/camera-and-baseline.jpg",
+      "bytes": 374430,
+      "sha256": "4f452437b408f151aa7bb47db6e0aa9d2c88956ee6bbbad7d554514d5e2d437e"
+    },
+    {
+      "path": "assets/box-label/camera-menu.jpg",
+      "bytes": 247842,
+      "sha256": "ebd9212fa3bc95c65243e497fbf94dd0ce2f0edc51374b9f80fd40e816d3328b"
+    },
+    {
+      "path": "assets/box-label/capture-table.png",
+      "bytes": 224931,
+      "sha256": "8cdeeaf8d4c14ca5e771f013b8455a7b04c493413f52f5f2d363de82afa0e2c8"
+    },
+    {
+      "path": "assets/box-label/carton-wide.png",
+      "bytes": 7154291,
+      "sha256": "ba1a8530035eefbd49e8b7d3a31ffb4650be1644912a8ea292fa7d04102fc7e4"
+    },
+    {
+      "path": "assets/box-label/colour-variation.png",
+      "bytes": 56843,
+      "sha256": "ecb24a1f8415effb2e213cc530419c445f405f43db82037e4412ad2419977f07"
+    },
+    {
+      "path": "assets/box-label/diamond-profile.png",
+      "bytes": 45439,
+      "sha256": "08e80e9841641f1cb87fdb9a71c594ccd38746040cd6fb15d3163140e2e59c97"
+    },
+    {
+      "path": "assets/box-label/letter-profile-four.png",
+      "bytes": 102533,
+      "sha256": "e8f696ddf41dc39cfcbf34d41ae580cb623df2e19405f6cf09dc569ac87fe2ee"
+    },
+    {
+      "path": "assets/box-label/letter-profile-sixteen.png",
+      "bytes": 105627,
+      "sha256": "6565493fbbf36434e5563b0133f283480c53e38978de36b31d685a431dc0d3f9"
+    },
+    {
+      "path": "assets/box-label/measured-shifts.png",
+      "bytes": 83151,
+      "sha256": "4d759bd2e5be791eb16b233ed721890cb3bbe6740e998e9e93bb81a996f2bf2c"
+    },
+    {
+      "path": "assets/box-label/sixteen-2x-detail.png",
+      "bytes": 339169,
+      "sha256": "208659d348bbbb7051e44ad843e7cc537095ece14cb8f67cf3dcff5c12cc9b70"
+    },
+    {
+      "path": "assets/box-label/sixteen-native-detail.png",
+      "bytes": 81929,
+      "sha256": "4be8398f6cee377c954b301ddf3509ae4e8bbfd66a7dc21dc8a3a69cf41c6698"
     },
     {
       "path": "assets/long-ordinary-drift.png",
@@ -50,14 +130,9 @@
       "sha256": "20fb788859cc1a25be995997e30e5c92d84d962fbfb53f39ad3fb7b3e20c8702"
     },
     {
-      "path": "CONTRIBUTING.md",
-      "bytes": 1081,
-      "sha256": "3166c72c6009b304cb20022bf72a967c7158cda6c5208b9682bc6db169b60737"
-    },
-    {
       "path": "docs/AI_RESEARCH.md",
-      "bytes": 4066,
-      "sha256": "0b457dd2fff79b1bcff8a57e62c61ae1f85ab3b76e3e2d2482a80448bb004b79"
+      "bytes": 4026,
+      "sha256": "279b0b83f9fc50fc89b19f5dec2b802f9282b490f796159263c22a7a0ffe350e"
     },
     {
       "path": "docs/BUILD_INPUTS.md",
@@ -86,8 +161,8 @@
     },
     {
       "path": "docs/OBSERVATIONS.md",
-      "bytes": 4187,
-      "sha256": "bc3f53bfda2d902313c011045cde5446d07fcebe5be26df82b2b829b1ce24366"
+      "bytes": 4238,
+      "sha256": "2ef9ea5412035c514efc49315b88c17c4175ff0f6a3a99fba03235b814f8159c"
     },
     {
       "path": "docs/PARAMETERS.md",
@@ -95,9 +170,14 @@
       "sha256": "3c5dece89d81ad7431221872cea0bb57736b2b3667d8b91f0fba4fd626f3d269"
     },
     {
+      "path": "docs/REAL_WORLD_RESULTS.md",
+      "bytes": 10411,
+      "sha256": "4f480c7416a68a8d548fe203b0fb0d5d65407677f70f286f20ca95e6eba2b21e"
+    },
+    {
       "path": "docs/REFERENCES.md",
-      "bytes": 6396,
-      "sha256": "07c91bc56d73fd39cfe00ccf770e70fb9618991f77d16568d67f5b3509e6ac1c"
+      "bytes": 6471,
+      "sha256": "3ad607eff67330d5b189c4b5deb4c20c16ca56998bb211f3faae312305f20eab"
     },
     {
       "path": "docs/REPRODUCE.md",
@@ -106,8 +186,8 @@
     },
     {
       "path": "docs/RESULTS.md",
-      "bytes": 6162,
-      "sha256": "4b399c40999edc83fd14c7bed92174d815e3151ee37018873695afb65c85673b"
+      "bytes": 6373,
+      "sha256": "3ad306cefd78884c2b9b2b5a15f8e25b6cafc221f11dd2e281673b3c805445ee"
     },
     {
       "path": "docs/RISKS.md",
@@ -128,6 +208,16 @@
       "path": "docs/VERSION_HISTORY.md",
       "bytes": 2334,
       "sha256": "6739529ca000a4c5407cf741b3789486b2ebaf0afbcb0f82c886508c39bd1a9f"
+    },
+    {
+      "path": "evidence/box-label-results.json",
+      "bytes": 48165,
+      "sha256": "5bd4cbf35693d2370a19f566d957274e7718902715e512adcd24e1a0c2dd8646"
+    },
+    {
+      "path": "evidence/box-label-sequence.json",
+      "bytes": 10000,
+      "sha256": "2d3ea4eb65f75db1febd6028ad57524b50c6014b99d1f20b49b06bc8d8b27ac6"
     },
     {
       "path": "evidence/environment.json",
@@ -165,14 +255,34 @@
       "sha256": "7bd3bb4586db2673a017d36a6c7b1bb9461018eb3a5254eec2d722bab154692b"
     },
     {
+      "path": "examples/box-label/common.pp3",
+      "bytes": 309,
+      "sha256": "c814e70a3880aca8d6ae682f69176608da84ec424065977a01257b55f131208a"
+    },
+    {
+      "path": "examples/box-label/make-arq-LICENSE.txt",
+      "bytes": 33257,
+      "sha256": "e74254d27c72a354a306c396e387fb6921c0893726604468c97edd98703e5dfa"
+    },
+    {
+      "path": "examples/box-label/make-arq-c2.patch",
+      "bytes": 1161,
+      "sha256": "135c6e894dedc0636bae3589d0061b6e43ccd3b772914fba4209b3a4c4a67199"
+    },
+    {
+      "path": "examples/box-label/shift.pp3",
+      "bytes": 66,
+      "sha256": "9e2d12b6d95d77c97e60a677eaf1b180e922f652842b58fcb03f6fe6cc44f7e3"
+    },
+    {
+      "path": "examples/box-label/single.pp3",
+      "bytes": 26,
+      "sha256": "b1d5630039c1fc87f20a3a222bf9d3f857f4ac2339f5b61fe84f4e50bb4fef68"
+    },
+    {
       "path": "examples/build-inputs.template.json",
       "bytes": 164,
       "sha256": "3f3280c0cab4b6bad796d4609b80e0c97123c74d95aedfc933880dc7eb9ac9ea"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1337,
-      "sha256": "e7b1a5d61f587ff8f183c49826d689a22534b7efa7b513a58523b7a01c9bdc2c"
     },
     {
       "path": "licenses/A7C2-upstream-MIT.txt",
@@ -185,19 +295,9 @@
       "sha256": "a485f27d0b22eb7fd9b9419795695d0a1750ea32c961d11c1dd8ddade564dedf"
     },
     {
-      "path": "NOTICE.md",
-      "bytes": 2304,
-      "sha256": "5f55b84a5457c3c2e2c9fb75256b007623de8295ffe36ec71a15bf626575fdf7"
-    },
-    {
       "path": "profiles/ilce7cm2-2.01.json",
       "bytes": 10738,
       "sha256": "daaefe32c3c00dc31ab64705d375881fdddb8740a640cd6713bb1fc6cc31b029"
-    },
-    {
-      "path": "README.md",
-      "bytes": 7195,
-      "sha256": "44cfad0a4d32531629c1c12a722b4e7a09e753181b26eaff2cc4a751c3c7da01"
     },
     {
       "path": "requirements-offline.txt",
@@ -338,11 +438,6 @@
       "path": "tools/test_offline.py",
       "bytes": 3881,
       "sha256": "9ef7b946e5c1c5d21b3218f3896eef2427f049e1950e04abf5a3f583f0ce5dda"
-    },
-    {
-      "path": "VERSION",
-      "bytes": 3,
-      "sha256": "2d27fbdf4e8ca207afbfa388ca9172fbcc6c70e534af2476b3b704f87debadcf"
     }
   ]
 }

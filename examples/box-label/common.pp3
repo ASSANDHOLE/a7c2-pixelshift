@@ -1,0 +1,20 @@
+[Exposure]
+Auto=false
+Compensation=1
+Curve=0;
+Curve2=0;
+[Sharpening]
+Enabled=false
+[PostDemosaicSharpening]
+Enabled=false
+[SharpenMicro]
+Enabled=false
+[Directional Pyramid Denoising]
+Enabled=false
+[RAW]
+CA=false
+[White Balance]
+Setting=Camera
+[Color Management]
+InputProfile=(camera)
+OutputProfile=RTv4_sRGB

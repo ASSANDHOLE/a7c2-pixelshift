@@ -1,0 +1,3 @@
+[RAW Bayer]
+Method=pixelshift
+PixelShiftMotionCorrectionMethod=0

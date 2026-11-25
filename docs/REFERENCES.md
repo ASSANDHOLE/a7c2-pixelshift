@@ -28,7 +28,7 @@ pixel-shift implementation. This is not a claim that no such project exists.
 - [ExifTool Sony tags](https://exiftool.org/TagNames/Sony.html): group/frame metadata interpretation, not optical displacement telemetry.
 - [RawTherapee pixelshift.cc](https://github.com/RawTherapee/RawTherapee/blob/b2ee504c47e5e6d5e054395aa12bf1fe43bd1c3c/rtengine/pixelshift.cc) and [agriggio/make_arq](https://github.com/agriggio/make_arq): open-source reconstruction/container references. Linked rather than copied into this export.
 - [Handheld Multi-Frame Super-Resolution](https://research.google/pubs/handheld-multi-frame-super-resolution/) and [IPOL reproducible implementation](https://www.ipol.im/pub/art/2023/460/): multi-frame registration/fusion references, not evidence of camera firmware compatibility.
-- [PIXLS RAW repository](https://raw.pixls.us/): public Sony reference capture study used during development. The private owner's photos are not published here.
+- [PIXLS RAW repository](https://raw.pixls.us/): public Sony reference capture study used during development. The owner's separate box-label example has its own [results and sample-file section](REAL_WORLD_RESULTS.md#sample-raw-files).
 
 ## Drift literature
 

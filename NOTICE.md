@@ -34,3 +34,5 @@ and their upstream attribution. The profile was cross-checked against the
 generic public-firmware extraction, with all body-specific coefficient values
 replaced by explicit caller input. No new rights to Sony's generic firmware
 windows are asserted by this project's MIT license.
+
+The photographic example uses [RawTherapee 5.13](https://github.com/RawTherapee/RawTherapee/releases/tag/5.13) and Alberto Griggio's [make_arq](https://github.com/agriggio/make_arq/tree/912069a8e6d3c6738cd76ba0fe6c62ed4d314fe3). The small compatibility patch for make_arq is distributed under its upstream GPL-3.0-or-later terms. [Upstream notice](examples/box-label/make-arq-LICENSE.txt)

@@ -1,5 +1,7 @@
 # Results and measurement limits
 
+For a photographic comparison at similar total exposure, see the carton lettering, red-diamond edge profiles and blank-paper measurements. [Real-world results](REAL_WORLD_RESULTS.md)
+
 Positions are estimated from RAW image content. Sony group/frame metadata helps
 identify capture order; it is not a sensor-position measurement used here.
 
@@ -37,19 +39,20 @@ these spreads are not 95% confidence intervals or independent replication.
 
 ## Merging and image quality
 
-Four-shot reconstruction corrects measured fractional offsets within each CFA
-colour plane before the intended integer-phase merge. Sixteen-shot processing
-combines four half-step quartets on a doubled grid; native-size comparisons use
-a 2×2 average in linear RGB. Additional sixteen-shot outputs are aligned and
-averaged for multi-set stacks.
+In the earlier desk study, the four-shot reconstruction corrected the measured
+fractional offsets within each color plane of the Bayer array before merging
+the samples. The sixteen-shot reconstruction combined four quartets on a grid
+with twice the width and height. For native-size comparisons, we averaged each
+2×2 block in linear RGB. For comparisons across multiple sets, we aligned and
+averaged the reconstructed images.
 
-The owner saw sharper text in four-shot output than a single longer exposure,
-with more visible grain, and good colour in both four- and sixteen-shot output.
-Two-/three-set sixteen stacks reduced shadow noise with little extra apparent
-detail in the tested desk scene. These observations should not be replaced by
-a blanket conclusion that the feature does not work. Nor do they establish
-universal superiority: total exposure, ISO, demosaic, interpolation, sharpening,
-lighting and movement affect the comparison.
+In that desk scene, the owner judged the text sharper in the four-shot image
+than in the longer single exposure. The four-shot image also showed more grain.
+The owner found the color good in both the four- and sixteen-shot images.
+
+Averaging two or three sixteen-shot sets reduced shadow noise, with little
+additional visible detail. Comparisons across scenes also depend on total
+exposure, ISO, demosaicing, interpolation, sharpening, lighting, and movement.
 
 Measured between-frame translation can be corrected in reconstruction. It cannot
 undo blur within one exposure or arbitrary subject motion. A common 0.25-pixel

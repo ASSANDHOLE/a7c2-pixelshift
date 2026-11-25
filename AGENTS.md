@@ -6,6 +6,9 @@ helper, change drivers or install/undo anything without an explicit current task
 The source snapshots are evidence; preserve them unchanged and propose revisions
 separately. Do not fabricate missing private manifests or replace identity checks.
 Keep per-body data, raw photographs and credentials outside this repository.
+The owner approved the camera-menu photograph and rendered box-label comparison
+for the README and results page. The metadata-clean sample ARWs are packaged
+separately for an external download.
 Exception explicitly authorized by the owner: the final PXS step triplet
 C0=116, C1=119, C2=112 may be published as a one-body experimental starting point.
 This permission does not cover original calibration records, identifiers or dumps.

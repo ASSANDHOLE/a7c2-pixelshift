@@ -1,101 +1,43 @@
 # A7C II Pixel Shift Research
 
-Persistent four- and sixteen-frame pixel-shift capture on **one Sony A7C II
-(ILCE-7CM2), firmware 2.01**, with measured RAW displacement, offline merging,
-and a checked normal uninstall path.
+We enabled four-shot and sixteen-shot pixel shift on one **Sony α7C II (ILCE-7CM2) running firmware 2.01**. Both modes remained available after a cold start.
 
-**Public release: v1.** This names the current, optically adjusted parameter set.
-The earlier parameter estimate is development history, not a separate public
-release. The private tool/archive names remain unchanged; see the
-[version mapping](docs/VERSION_HISTORY.md).
+In pixel-shift mode, the camera moves its sensor slightly between exposures. Each RAW frame samples the scene from a different sensor position. Combining the frames on a computer can improve color sampling and reveal fine detail in a still subject.
 
-**Status, 14 November 2026:** public v1 remains installed according to the last saved
-installation records and the owner's subsequent use. Repeated four-/sixteen-shot
-captures work on the research body. The owner reports no currently identifiable
-operating problem. This is a one-body research result, not a supported release for
-all A7C II cameras.
+[![Camera display with 16 shots and Shortest selected on the left. Full baseline photograph of the carton on the right, with the two detail crops outlined.](assets/box-label/camera-and-baseline.jpg)](assets/box-label/camera-and-baseline.jpg)
 
-**Test scope:** physical experiments used only this owner's camera and Windows
-PC. The current offline build was checked on that same Windows x64 host; it is
-not a claim of compatibility with every computer, driver setup or camera body.
-See the concise, de-identified [tested configuration](docs/TESTED_ENVIRONMENT.md).
+All 23 sample frames were shot with the **Sony FE 28–60mm F4–5.6 at 60 mm and f/8**. The right panel shows the full 7,020 × 4,680 baseline exposure at 1/25 s and ISO 2000. The yellow outlines locate the **147 × 35 pixel lettering crop** and **49 × 35 pixel red-edge crop** enlarged below.
 
-> **The parameter choice is inferred from one specific camera.** It is not Sony's
-> factory pixel-shift calibration and is not established as transferable to another
-> body. If you cannot explain a proposed change and its reversal, stop and research
-> it, or seek a competent human reviewer or a capable AI agent with evidence and
-> offline tools.
+## What does pixel shift change in this photograph?
 
-**Published starting point:** `C0 = 116`, `C1 = 119`, `C2 = 112` (decimal).
-The owner authorizes sharing this final triplet, which is included in the input
-example. It produced the reported results on this one body; it is an experimental
-starting point for others, not Sony factory calibration or a validated setting
-for every A7C II. See [parameters](docs/PARAMETERS.md) and [tuning](docs/TUNING.md).
+[![Six full-width rows showing the same enlarged word and red diamond edge, including both sixteen-shot output sizes](assets/box-label/capture-table.png)](assets/box-label/capture-table.png)
 
-## What is here
+At nearly equal total exposure, the 0.625 s single and the sixteen-frame merge (0.640 s) resolve the same visible strokes in *accordance*. The paper looks smoother in the single exposure.
 
-| Area | Included |
+Compare the last three rows to see the difference at the same magnification. They show the long single, the full sixteen-frame merge, and a copy of that merge downsampled to native resolution. We developed all five captures in RawTherapee. [Wider field of view](assets/box-label/carton-wide.png) · [Results, curves, and processing recipe](docs/REAL_WORLD_RESULTS.md)
+
+**Try the comparison with the same files.** The 1.08 GiB ZIP contains 23 de-identified ARWs and `capture-sequence.json`, which records frame order, timing and file hashes. [Download the sample ZIP from Google Drive](https://drive.google.com/file/d/1zuEARxQN6Az-ZDgjSTrsG0eXrG-QaDJV/view?usp=sharing)
+
+## Research configuration
+
+**Public v1** uses the optically adjusted decimal coefficients **C0 = 116, C1 = 119, C2 = 112**. These are an experimental starting point inferred and measured on one camera. Across 25 measured quartets the mean horizontal/vertical steps were **0.998/1.006 native pixels**. See the [geometry measurements](docs/RESULTS.md), [parameter tuning](docs/TUNING.md) and [version history](docs/VERSION_HISTORY.md).
+
+Physical testing used one owner-operated camera and one Windows PC. For static, ambient-lit subjects, **Shortest** is the starting interval supported by the repeated sixteen-shot measurements. The separate long series was taken at about 21 °C and 50% RH. Results may vary with the setup and environment. [Long-series report](docs/LONG_SERIES.md) · [Tested configuration](docs/TESTED_ENVIRONMENT.md)
+
+Review the proposed change and its reversal before using it on another body. A competent reviewer can work through the evidence and offline tools with you.
+
+## Explore the research
+
+| What do you want to do? | Start here |
 | --- | --- |
-| Implementation | Offline AP/CP builder, fixed firmware profile, input template, native-helper build/tests and existing review source under `src/v1` |
-| Explanation | Native menu, capture sequence, controller-profile/feedback choice, three step coefficients and persistent file changes |
-| Results | Sanitized numerical results and plots; failed development approaches are documented too |
-| Reversibility | Version transition map, normal undo procedure, and explicit recovery limits |
-| Research practice | AI model/effort provenance, refusal reports, narrower research alternatives and contribution guidance |
+| Develop the sample photos yourself | [Sample contents](docs/REAL_WORLD_RESULTS.md#sample-raw-files) · [RawTherapee recipe](docs/REAL_WORLD_RESULTS.md#reconstructing-the-images) |
+| Understand how the camera moves the sensor | [How pixel shift works](docs/HOW_IT_WORKS.md) · [What the three coefficients control](docs/PARAMETERS.md) |
+| Check the accuracy of the shifts | [How displacement is measured](docs/MEASUREMENT_METHOD.md) · [Step and drift results](docs/RESULTS.md) |
+| Reproduce the firmware files offline | [Build inputs](docs/BUILD_INPUTS.md) · [Reproduction guide](docs/REPRODUCE.md) · [Source scope](src/README.md) |
+| Assess a change on another body | [Tuning guide](docs/TUNING.md) · [Installation and reversal scope](docs/INSTALL_AND_UNDO.md) · [Risks](docs/RISKS.md) |
+| Review or contribute evidence | [Development observations](docs/OBSERVATIONS.md) · [References](docs/REFERENCES.md) · [AI research notes](docs/AI_RESEARCH.md) · [Contributing](CONTRIBUTING.md) |
 
-**This repository is an offline reproduction kit, not a turnkey camera installer.**
-It deliberately does not
-contain the owner's camera identity, original calibration records, original program files,
-modified binaries, service credentials, private generated manifests, RAW photos
-or runnable private release bundle. The complete body-bound tools and originals
-are retained separately by the owner. See [source scope](src/README.md).
-
-With the exact stock components and explicitly supplied coefficients, a reader
-can now reproduce the complete target AP/CP files and inverse without rediscovering
-the patch locations. Start with [the build instructions](docs/REPRODUCE.md) and
-[input specification](docs/BUILD_INPUTS.md). The example contains the published
-starting triplet; the builder requires explicit values and does not connect to
-a camera automatically.
-
-## What was achieved
-
-- Native Off/four/sixteen menu choices and native intervals, including Shortest.
-- Persistent operation after cold start, without a connected PC for photography.
-- Four-shot full-colour sampling and sixteen-shot half-step sampling measured
-  from actual RAW image content, rather than assumed from metadata.
-- Local four-/sixteen-frame reconstruction; additional sixteen-shot stacks
-  reduce noise, with limited further visible detail in the tested desk scene.
-- Optically adjusted vertical-step parameters. Across 25 measured quartets, mean
-  horizontal/vertical steps were **0.998/1.006 native pixels**. The twelve
-  quartets in three Shortest sixteen-shot groups averaged **0.993/1.002 px**.
-  These are empirical measurements, not factory tolerances or confidence bounds.
-
-![Measured public v1 groups](assets/measured-patterns.png)
-
-The plotted lines connect measured positions in capture order. Longer intervals
-contain image drift and are not evidence that the coefficient itself changed.
-The full measurement definition and limitations are in [results](docs/RESULTS.md).
-
-**Later long-series result:** at an owner-reported room temperature of about
-**21 °C and 50% RH**, sixteen-shot groups retained the expected sampling pattern.
-Shorter intervals generally had smaller positional deviations, including after
-a simple drift fit. For a static, ambient-lit scene, **use Shortest as the starting
-choice**; these one-body measurements are not a guarantee, and four-shot results
-were not uniformly better at shorter intervals. Hotter conditions could change
-the behavior substantially or very little; no temperature comparison was made.
-Your mileage may vary. See [conditions and detailed results](docs/LONG_SERIES.md)
-and [how displacement is measured](docs/MEASUREMENT_METHOD.md). Only numerical
-data and plots are included, with no source photos, crops or photo previews.
-
-## Read in this order
-
-1. [How it works](docs/HOW_IT_WORKS.md), [parameter interpretation](docs/PARAMETERS.md), and [how to tune the parameters](docs/TUNING.md).
-2. [Development observations](docs/OBSERVATIONS.md), including unsuccessful trials.
-3. [Results, consistency and drift](docs/RESULTS.md).
-4. [Installation and reversal scope](docs/INSTALL_AND_UNDO.md) and [risks](docs/RISKS.md).
-5. [References and upstream changes](docs/REFERENCES.md).
-6. [AI-assisted research and refusal reports](docs/AI_RESEARCH.md).
-7. [Reproduce the files and helper offline](docs/REPRODUCE.md), with the
-   [input specification](docs/BUILD_INPUTS.md) and [tested host scope](docs/TESTED_ENVIRONMENT.md).
+The public firmware tools build and check files offline from the exact stock components and the coefficients you supply. The owner keeps the camera-specific installation sessions and backups privately.
 
 To check this public export offline with Python 3.12 or later:
 
@@ -119,5 +61,3 @@ readback and offline tests do not provide that guarantee.
 Source and documentation are supplied as-is, subject to the [license](LICENSE)
 and [third-party notices](NOTICE.md). Firmware, trademarks and third-party
 components retain their owners' rights. See the specific [risk explanations](docs/RISKS.md).
-
-No repository or file was uploaded to GitHub when this local export was prepared.

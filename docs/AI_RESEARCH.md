@@ -1,8 +1,8 @@
 # AI-assisted research and reported guard interruptions
 
-An agent is useful for cross-referencing disassembly, checking data flow, writing
-bounded tooling, reviewing undo paths and analysing captures. It is not a substitute
-for original evidence or for knowing which operation will actually run.
+An agent can help trace data flow, review an undo procedure, or analyze a capture.
+Check its conclusions against the original evidence. Before running a tool,
+verify which operation it will perform.
 
 ## Recorded model and effort
 

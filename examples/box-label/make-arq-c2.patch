@@ -1,0 +1,30 @@
+--- a/make_arq.py
++++ b/make_arq.py
+@@ -156,7 +156,18 @@
+                           '-all:all', '-struct', '-G', filename],
+                          stdout=subprocess.PIPE)
+     out, _ = p.communicate()
+-    return json.loads(out)[0]
++    tags = json.loads(out)[0]
++    # Clean sample ARWs retain Sony PixelShiftInfo rather than the redundant SequenceNumber.
++    if tags.get('EXIF:Model') == 'ILCE-7CM2' and 'MakerNotes:SequenceNumber' not in tags:
++        import re
++        info = str(tags.get('MakerNotes:PixelShiftInfo', ''))
++        match = re.search(r'\bShot (\d+)/(4|16)\b', info)
++        if not match:
++            raise ValueError('A complete Sony pixel-shift sequence is required')
++        tags['MakerNotes:SequenceNumber'] = int(match.group(1))
++    if 'MakerNotes:WB_RGGBLevels' not in tags and 'EXIF:WB_RGGBLevels' in tags:
++        tags['MakerNotes:WB_RGGBLevels'] = tags['EXIF:WB_RGGBLevels']
++    return tags
+ 
+ 
+ def check_valid_frames(frames):
+@@ -176,6 +187,7 @@
+         'SONY ILCE-7RM5',
+         'SONY ILCE-1',
+         'SONY ILCE-7CR',
++        'SONY ILCE-7CM2',
+         'FUJIFILM GFX 100',
+         'FUJIFILM GFX100S',
+         }
